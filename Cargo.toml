@@ -1,0 +1,11 @@
+[package]
+name = "min_os_rust"
+version = "0.1.0"
+authors = ["Rajendra Kolli <rajendraatiitg@gmail.com>"]
+
+[lib]
+crate-type = ["staticlib"]
+
+[dependencies]
+rlibc="1.0.0"
+
